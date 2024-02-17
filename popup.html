@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Popup Example</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="left-side">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+    </div>
+    <div class="right-side">
+      <a href="#">Login</a>
+      <a href="#">Sign up</a>
+    </div>
+  </nav>
+  <section>
+    <div class="menu" id="open-popup">
+      <ul>
+        <li><button class="open-popup">The book series</button></li>
+        <li><button class="open-popup">Testimonial</button></li>
+        <li><button class="open-popup">TheAutor</button></li>
+        <li><button clas="open-popup">resources</button></li>
+      </ul>
+    </div>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h2>Pop UP </h2>
+        <p>ini adalah popup</p>
+      </div>
+    </div>
+  </section>
+  <div class="image-container">
+    <img src="https://source.unsplash.com/tMHAmxLyzvA" alt="Boston city skyline">
+    <div class="image-text">Welcome to Kinsta</div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Left Side</h5>
+            <p class="card-text">This is the left side content of the card.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Right Side</h5>
+            <p class="card-text">This is the right side content of the card.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2>Join our newsletter!</h2>
+        <p>Sign up for our newsletter to get the latest updates, promotions, and more.</p>
+        <form action="#">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+      <div class="footer-right">
+        <h2>Follow us on social media</h2>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+        </ul>
+        <div class="copyright">
+          <p>&copy; 2023 My Company. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
